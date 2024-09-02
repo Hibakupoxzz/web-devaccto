@@ -1,0 +1,129 @@
+body {
+    height: 1000vh;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(BG.png);
+    background-attachment: fixed;
+    
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    
+    background-color: hsla(0, 0%, 0%, 0.459);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.P1 {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: aliceblue;
+}
+
+h1{ font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-style: normal;
+    color: aliceblue;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: aliceblue;
+}
+
+h3 {
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: aliceblue;
+}
+
+ul,li,dd  {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: aliceblue;
+}
+
+p,br {
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    color: aliceblue;
+}
+
+/* berhubungn dengan js */
+
+img {
+    width: 800%;
+    max-width: 800px;
+    margin-left: 20px; /* Memberikan jarak antara slider dan konten */
+    flex: 1; /* Membiarkan konten mengambil sisa ruang yang tersedia */
+  }
+
+
+
+.slider {
+    position: relative;
+    max-width: 800px;
+    margin-left: 1px;
+    overflow: hidden;   
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+     
+}
+
+.slides img {
+    max-width: 100%;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 3px;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.prev {
+    left: 30px;
+}
+
+.next {
+    right: 10px;
+}
+
+
+
+
+
+
+
